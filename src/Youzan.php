@@ -5,7 +5,7 @@ namespace Dancesmile\Youzan;
 /**
 * 	
 */
-class Youzan 
+class Youzan extends Foundation
 {
 
 }
