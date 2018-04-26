@@ -1,14 +1,21 @@
 {
-    "name": "siyue/youzan",
+    "name": "dancesmile/youzan",
     "description": "Personal trading scheme",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "cailei",
-            "email": "cailei@aprbrother.com"
+            "email": "1215850394@qq.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+         "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Dancesmile\\Youzan\\":"src/"
+        }
+    }
 }
