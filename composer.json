@@ -1,0 +1,14 @@
+{
+    "name": "siyue/youzan",
+    "description": "Personal trading scheme",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cailei",
+            "email": "cailei@aprbrother.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
