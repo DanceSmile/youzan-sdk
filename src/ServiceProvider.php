@@ -15,13 +15,14 @@ class ServiceProvider implements   ServiceProviderInterface
 
     	$container["access_token"] = function (Container $container)
     	{
-
+ 
     		return new AccessToken(
 
     			$container["config"]["client_id"],
     			$container["config"]["client_secret"],
     			"silent",
-    			$container["config"]["kdt_id"]
+    			$container["config"]["kdt_id"],
+                $container['cache']
 
     		);
 

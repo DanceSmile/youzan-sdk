@@ -20,7 +20,13 @@ $youzan = new Youzan([
 
 ]);
 
+Log::debug($youzan->request("post", "https://open.youzan.com/api/oauthentry/youzan.pay.qrcode/3.0.0/create" , [
+    'qr_name' => '測試',
+    'qr_price' => '1',
+    'qr_type' => 'QR_TYPE_NOLIMIT',
+])->body());
 
 
-dd($youzan->access_token->token);
+
+dd($youzan->access_token->getToken());
 
