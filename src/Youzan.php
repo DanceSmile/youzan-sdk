@@ -12,33 +12,24 @@ use Dancesmile\Foundation\Log;
 class Youzan extends Foundation
 {
 
+	const PERSONAL = 'PERSONAL';
+    const PLATFORM = 'PLATFORM';
+
 	protected $providers = [
 
-		ServiceProvider::class
+		ServiceProvider::class,
+		\Dancesmile\Youzan\Shop\ShopProvider::class
+
 
 	];
 
 
 
-	public function request($methos,$url, $params)
+	public function request($method, $params, $version= '3.0.0')
 	{
 
+		 return $this->api->request($method, $params, $version);
 
-
-
-		$params = array_merge($params, [
-			"access_token" => $this->access_token->getToken()['access_token']
-		]);
-
-		Log::debug("params",$params);
-
-
-		return Dttp::client([
-		])->beforeSending(function($request,$reponse){
-		})
-		->asFormParams()
-		->verify(false)
-		->{$methos}($url,$params);
 
 	}
 

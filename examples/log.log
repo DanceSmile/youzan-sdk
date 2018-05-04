@@ -1,8 +1,108 @@
-[2018-05-03 06:17:54] youzan.DEBUG: params {"access_token":{"access_token":"23aac9f7c30d33849149c12d20ca8498","expires_in":604800,"scope":"storage points reviews multi_store salesman pay_qrcode item user trade_advanced trade item_category logistics coupon_advanced shop coupon crm_advanced trade_virtual retail_goods"}} []
-[2018-05-03 06:18:22] youzan.DEBUG: params {"access_token":"23aac9f7c30d33849149c12d20ca8498"} []
-[2018-05-03 06:18:38] youzan.DEBUG: params {"access_token":"23aac9f7c30d33849149c12d20ca8498"} []
-[2018-05-03 06:21:11] youzan.DEBUG: params {"qr_name":"測試","qr_price":"1","qr_type":"QR_TYPE_NOLIMIT","access_token":"23aac9f7c30d33849149c12d20ca8498"} []
-[2018-05-03 06:32:29] youzan.DEBUG: params {"qr_name":"測試","qr_price":"1","qr_type":"QR_TYPE_NOLIMIT","access_token":"23aac9f7c30d33849149c12d20ca8498"} []
-[2018-05-03 06:32:41] youzan.DEBUG: params {"qr_name":"測試","qr_price":"1","qr_type":"QR_TYPE_NOLIMIT","access_token":"23aac9f7c30d33849149c12d20ca8498"} []
-[2018-05-03 06:34:31] youzan.DEBUG: params {"qr_name":"測試","qr_price":"1","qr_type":"QR_TYPE_NOLIMIT","access_token":"23aac9f7c30d33849149c12d20ca8498"} []
-[2018-05-03 06:34:43] youzan.DEBUG: {"response":{"qr_id":"6780831","qr_url":"https:\/\/trade.koudaitong.com\/wxpay\/confirmQr?qr_id=6780831&kdt_id=40680169","qr_code":"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOwAAADsCAIAAAD4sd1DAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAMI0lEQVR4nO2dP48bVRfGbS\/7pmCNQFSsxIqK0NJtQenPEIkaKRUSJV8ESmo+A4SGAikdVSSgihZpOysSEfAuyXoojIJxPPY99\/x9nOdXJd6Ze69nHs8898y5Z6bDMEwIQWaWPQBCtFDEBB6KmMBDERN4KGICD0VM4KGICTwUMYGHIibwUMQEHoqYwEMRE3goYgIPRUzgoYgJPBQxgYciJvBQxAQeipjA85pm5+l0ajWOTV4s+9tqf+zz7m02afwuB5ckNo65ZZyu\/bagHLOU7uWevBITeChiAg9FTOBReeJgrKyYk6UT9SUdw+b2Ld7Rql8ILEXcbcw7juzBvsY2kE74DPGeGGURed53QjtB4KGICTwuntgq9tnYhZUNGBt2d+y5sX0pZd1IwHnfCdLEzgNzn7p5hpweZBxsx\/ABBwS0EwQeipjAcwx2wvsO2NK+Zgw7\/X1Hg9LY8NGUpi4t4g5\/KW1W05dJEk\/AvhoghE47QeChiAk8pe2EEx4xZmm\/kfu2tAlhG8aAEXFHLsTO3Vu2d\/LiIhrHYJ63gKhm2gkCD0VM4CltJwxv5aKmEh+9avKMx2ixUtD+2EXEwUdBGkMNyxseQ7MAdk87UlzzRiKhnSDwUMQEHks7kZ7FpzSU5ndDw\/ZTPGvj+NPPe+mJ3RbduQrVvKNTv8e6hu8gtBMEHoqYwINkJ8aQ5tF61ILwIGv8cG5EJeKCUXErH2mScyw9PoY5G66nptp5p50g8FDEBJ4SdSe847UdaDIVS3nK4PwT19rPY0BO7Fq8o8a\/llLhfjxiyXDxZtoJAg9FTOCp+M6Og8025sVK+0r34oa1JrJIOZ5entgq\/poirHQ1rzF5aU3jd7GqxXGwcY9fHe0EgYciJvCUCLEVWftlVRNN06\/59h05wUXcVDslRLzFQQF1PHGIrGXW0pfHgx7RvkqfWiqWTDtB4KGICTxpdiIrJtrYiHm9YU0jhnjXWh5rx9Vnu+cTV4hTNqLxeSY+3qqvsX6V+RJlJ3y0EwQeipjAE5E7Ia0FtnNfUCLX7Wni3BUiZd1UjBPvxOpdzR65yFb7HgEm7zGRQjtB4KGICTzV7URkzBU6fyCAsscntO6ENG9YE6+Vbh9Q76w7X8LQW5t\/X40GrKCdIPBQxASe0DixsqkWT2bl21LqlFVYmrVFy3HotlhW3zdtYmf1TL\/yOrCxs2KlTo\/abYixbdoJAg9FTOBByicu2IXJACJzjlGOiQhLEVfOxzWp1VBw4qUhbD2fN7QTBB6KmMAT4Yml8d2Wz62wchceMWlvKq8FFOH+bufgmgYHT0ZirnD3OjZNvNlqzNLtmU9MiACKmMBTMZ\/Ye52Z9BaWXqshscyUVcTT1TpXeY+dSHDFa1CgkFXrwzzGTDtB4KGICTxV3tkhyls1bFO6bySRMfLIOhXmmQUV84m78yg81qJ54PRkRBQ2zorfe\/wyaScIPBQxgSfaTmjyKMY2KJUWmIjH\/EEzhjDc48SGNXQ17YjyFirM6saQHquOX7jVcRDlgWignSDwUMQEHjNP3OFTrWr3Vr7724K4qG7\/GEzcRfTErjunVuNxXxHMv6\/GT0dCO0HgoYgJPJlx4leBYbn866uvJpPJ6b17s\/feyx5OEx511lyZWpkYZR6wtEavR63fzTatDsufn376\/y+\/nEwmJ3fvvv711ycffmjSbDvK42M1hxGNQQrthCPDcvnsu+\/W\/779+efnDx7kjudYoYgdGZ4+3fzv6uoqayTHjVc+sfQ5vnfMOCX0Mzx5Mlxf27bZcbuXttn4J9E2Ldvj5RMbYlJnzYPbR49WGxfj2cVFWNcazHMnvCd5tBOO3D58uPnf6fl51kiOG4rYi2G5vP3ll81Ppm+8kTWY4+YY7ISIsFzk1dXV1pV4m5ubyWQyuXPHaQD7UfrgUmTWJ+6OWbY0mH4mnj94sPpvdOL5t9\/O3n139euvq59+Wl1dra\/Tp4vFnc8+a5dyS122jh+qSS5Kx3tVTC4iqqi+9AGEVeDdY2xb+2prei+Xv3\/88bOXAsOz+Xwymfxntjefn33\/ve1DkI4HTx4iFvWr4ZWzEzE8\/+GHnV5i69pMTLAUcXe+b8Cj0chc5NXjxzdffNGo1+n5+fStt9obr5BS3Hi+pDHm7quyKjoxbDD2J037SlLGcPvjj3\/cv\/+ykSjIztO355ya92vVIO2ElmG5XF1d3T56NFxf\/++TT\/78\/HORgofr6+HJkwlIgltNKGIVq8eP\/7h\/\/\/bhw9XTpyd3757eu5c9olcRJBGnR81eZh0M1kzXpufn7Y+jbY+AiR+tQAkRW63laomhbuKRTCPldLGYnp2JdukOWW5iVd+jZTPvrCw+dk5m69E06YAiJvBE5BNrtpHuq1melMLpYiFNn9DEvFuclSbum0KVdzuXImyWM5vPTy4v27cfhsHq2JbKM1FCO5HMdD7PHgI8FHEmJ5eXKMs9KlMixGaIJprjHTddp7CtA8Mn779\/cnn52kcfTd9+27yjFirkE1tltEWIOKx2gdXMxoRNyZ4uFut\/TOfz2cXF9OzMKhc+ayIrilV7zzGO7UoczAtHO5vP18bgdLE4XSxmH3wwffPNtWoNJUt2kpkUv3ObPe2bb79n39bDcnPz7Jtvht9+m11czC4uZu+8463XgLTVFjyeGnZL0VLEY3QvW6os+iwqPCrfg2YVSWlP\/AKpH5XGMrVriooJYifBvy7XY8LcCUL+gSIm8ETYCWns1iPvAsIqHGQ9eIjv0nESczyxVcy10ftCnLxENDHjg\/vuOUct4nO18rQTBB6KmMDj9R47j329u0B3KQGn4OC+KY\/Bq+ROSPftzp0wHFs6ypzgCjFgE69MO0HgYQLQbrofEBreMaDvEpFkxomt2gxI\/+geg4dPPZp6EROj72ImYmlth7EPDRVvchUcwyrfY2J0xTU8huYJOmONWJ1remICD0VM4PGKE4vqG3iv9zKs6Rvpfb0bsaonvYlV6FOE+8QuwKuloPG+m3gnjO9pU7pNWWgnCDwUMYHH3U4k1jdAvDNK\/ai0noY3KcfcPU7ssbumnvGx+kInRLnCWQtvaScIPBQxgadKApA0fuw9Bs02LftWy3nQxIatjlt+7sQYwRWbu98TofTK3T886ZkznA94XCxSLkC0EwQeipjAE5070dGULR7phfphvCDy1t+CtDvsOLGS9JOn8ZpjH4LGm7vzNxgnJqQTipjA4\/UeO+n2VndeqyGF5To3Uqovp5NVN068B5Hf7ch08fBhYQXDg9uEhnaCwEMRE3i87ERkrNdjDFke3bxNQ09fNm+kRJzY8Ft51H2rgGstiJb2Nf5bmscihXaCwEMRE3gy7YRH1mJBJ3AQk5puTl\/cyn+3bJb\/zg7D5+yaflt2sd24cRfNL9aqXodmPJWhnSDwUMQEnug4sVWesXms0WrpUcEAs3cd5XTSJnbSesaRFf4CMP8RBnvog7nUe\/Zt2UUE7QSBhyIm8ITmE3e0Y+4KnGqZpa9FM8wnibT+JoS+x066feKiTu\/355mPQdNOgCJd+6KdIPBQxASeEqmYUgJsxthd75jWupXytRrMcicqtGM1BqV3dM0baenXKk6szIcRxZI10E4QeChiAk+JOPEW0juOd25A975O3l3q17Ni7QfPyzHUnTjI2LdKrHfmHSeWxnRd18ahQDtB4KGICTyl7UQk6ckPfd1VqK2R3qmliLs9ltV6u7HPOyYQJjHXxgPiGm73mOkGf6+D0E4QeChiAo+LJw54PKu53Xvny2blJOyMyzqt1YvZsRFO7P6lci22MRDHbA7tBIGHIibwUMQEHiRPXC2+G0l3\/Y3GdlJi\/Jp+N+GVmMBDERN4kOxEZN5wtXKoVrkT0na8Q3gm9fWQRCxFlIgdWXtBurHVmr8i39F8PLQTBB6KmMCDaiek+Q9SD+1x563sua1wrSE9houIPRJkrfyfodcca3YnFdYCNh5Pzb7tDRpCO0HgoYgJPJZ2At3SReYQa7xjZD60STiM+cT\/4FFrwup9eJFFZBLrJbeQknZCO0HgoYgJPBQxgWdaMHeWEBG8EhN4KGICD0VM4KGICTwUMYGHIibwUMQEHoqYwEMRE3goYgIPRUzgoYgJPBQxgYciJvBQxAQeipjAQxETeChiAs\/fouOUDugXsR8AAAAASUVORK5CYII=","qr_type":4}} [] []
+<h1 style="background: #cccccc;color: #ffffff;padding: 5px;" class="monolog-output">DEBUG</h1><table cellspacing="1" width="100%" class="monolog-output"><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Message:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>debug</pre></td>
+</tr><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Time:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>2018-05-04 03:51:12</pre></td>
+</tr><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Channel:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>youzan</pre></td>
+</tr></table><h1 style="background: #468847;color: #ffffff;padding: 5px;" class="monolog-output">INFO</h1><table cellspacing="1" width="100%" class="monolog-output"><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Message:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>info</pre></td>
+</tr><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Time:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>2018-05-04 03:51:12</pre></td>
+</tr><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Channel:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>youzan</pre></td>
+</tr></table><h1 style="background: #c09853;color: #ffffff;padding: 5px;" class="monolog-output">WARNING</h1><table cellspacing="1" width="100%" class="monolog-output"><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Message:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>warning</pre></td>
+</tr><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Time:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>2018-05-04 03:51:12</pre></td>
+</tr><tr style="padding: 4px;spacing: 0;text-align: left;">
+<th style="background: #cccccc" width="100px">Channel:</th>
+<td style="padding: 4px;spacing: 0;text-align: left;background: #eeeeee"><pre>youzan</pre></td>
+</tr></table>[2018-05-04 03:51:36] youzan.DEBUG: debug [] []
+[2018-05-04 03:51:36] youzan.INFO: info [] []
+[2018-05-04 03:51:36] youzan.WARNING: warning [] []
+[2018-05-04 03:59:04] youzan.DEBUG: debug [] []
+[2018-05-04 03:59:04] youzan.INFO: info [] []
+[2018-05-04 03:59:04] youzan.WARNING: warning [] []
+[2018-05-04 04:01:41] youzan.DEBUG: debug [] []
+[2018-05-04 04:01:41] youzan.INFO: info [] []
+[2018-05-04 04:01:41] youzan.WARNING: warning [] []
+[2018-05-04 04:02:03] youzan.DEBUG: debug [] 
+[2018-05-04 04:02:03] youzan.INFO: info [] 
+[2018-05-04 04:02:03] youzan.WARNING: warning [] 
+[2018-05-04 04:03:59] youzan.DEBUG: debug [] []
+[2018-05-04 04:03:59] youzan.INFO: info [] []
+[2018-05-04 04:03:59] youzan.WARNING: warning [] []
+[2018-05-04 04:07:32] youzan.DEBUG: debug [] []
+[2018-05-04 04:07:32] youzan.INFO: info [] []
+[2018-05-04 04:07:32] youzan.WARNING: warning [] []
+[2018-05-04 04:08:39] youzan.DEBUG: debug [] []
+[2018-05-04 04:08:39] youzan.INFO: info [] []
+[2018-05-04 04:08:39] youzan.WARNING: warning [] []
+[2018-05-04 04:08:51] youzan.DEBUG: debug [] []
+[2018-05-04 04:08:51] youzan.INFO: info [] []
+[2018-05-04 04:08:51] youzan.WARNING: warning [] []
+[2018-05-04 04:09:10] youzan.DEBUG: debug [] []
+[2018-05-04 04:09:10] youzan.INFO: info [] []
+[2018-05-04 04:09:10] youzan.WARNING: warning [] []
+[2018-05-04 04:09:15] youzan.DEBUG: debug [] []
+[2018-05-04 04:09:15] youzan.INFO: info [] []
+[2018-05-04 04:09:15] youzan.WARNING: warning [] []
+[2018-05-04 04:09:24] youzan.DEBUG: debug [] []
+[2018-05-04 04:09:24] youzan.INFO: info [] []
+[2018-05-04 04:09:24] youzan.WARNING: warning [] []
+[2018-05-04 04:10:37] youzan.DEBUG: debug [] []
+[2018-05-04 04:10:37] youzan.INFO: info [] []
+[2018-05-04 04:10:37] youzan.WARNING: warning [] []
+[2018-05-04 04:10:39] youzan.DEBUG: debug [] []
+[2018-05-04 04:10:39] youzan.INFO: info [] []
+[2018-05-04 04:10:39] youzan.WARNING: warning [] []
+[2018-05-04 04:10:43] youzan.DEBUG: debug [] []
+[2018-05-04 04:10:43] youzan.INFO: info [] []
+[2018-05-04 04:10:43] youzan.WARNING: warning [] []
+[2018-05-04 04:11:12] youzan.DEBUG: debug [] []
+[2018-05-04 04:11:12] youzan.INFO: info [] []
+[2018-05-04 04:11:12] youzan.WARNING: warning [] []
+[2018-05-04 04:11:33] youzan.DEBUG: debug [] []
+[2018-05-04 04:11:33] youzan.INFO: info [] []
+[2018-05-04 04:11:33] youzan.WARNING: warning [] []
+[2018-05-04 04:11:59] youzan.DEBUG: debug [] []
+[2018-05-04 04:11:59] youzan.INFO: info [] []
+[2018-05-04 04:11:59] youzan.WARNING: warning [] []
+[2018-05-04 04:14:26] youzan.DEBUG: debug [] []
+[2018-05-04 04:14:26] youzan.INFO: info [] []
+[2018-05-04 04:14:26] youzan.WARNING: warning [] []
+[2018-05-04 04:14:40] youzan.DEBUG: debug [] []
+[2018-05-04 04:14:40] youzan.INFO: info [] []
+[2018-05-04 04:14:40] youzan.WARNING: warning [] []
+[2018-05-04 04:15:31] youzan.DEBUG: debug [] []
+[2018-05-04 04:15:31] youzan.INFO: info [] []
+[2018-05-04 04:15:31] youzan.WARNING: warning [] []
+[2018-05-04 04:15:55] youzan.DEBUG: debug [] []
+[2018-05-04 04:15:55] youzan.INFO: info [] []
+[2018-05-04 04:15:55] youzan.WARNING: warning [] []
+[2018-05-04 04:19:25] youzan.DEBUG: debug [] []
+[2018-05-04 04:19:25] youzan.INFO: info [] []
+[2018-05-04 04:19:25] youzan.WARNING: warning [] []
+[2018-05-04 04:19:57] youzan.DEBUG: debug [] []
+[2018-05-04 04:19:57] youzan.INFO: info [] []
+[2018-05-04 04:19:57] youzan.WARNING: warning [] []
+[2018-05-04 04:20:07] youzan.DEBUG: debug [] []
+[2018-05-04 04:20:07] youzan.INFO: info [] []
+[2018-05-04 04:20:07] youzan.WARNING: warning [] []
+[2018-05-04 04:20:42] youzan.DEBUG: debug [] []
+[2018-05-04 04:20:42] youzan.INFO: info [] []
+[2018-05-04 04:20:42] youzan.WARNING: warning [] []
+[2018-05-04 04:20:54] youzan.DEBUG: debug [] []
+[2018-05-04 04:20:54] youzan.INFO: info [] []
+[2018-05-04 04:20:54] youzan.WARNING: warning [] []
+[2018-05-04 04:22:13] youzan.DEBUG: debug [] []
+[2018-05-04 04:22:13] youzan.INFO: info [] []
+[2018-05-04 04:22:13] youzan.WARNING: warning [] []
